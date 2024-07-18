@@ -18,11 +18,11 @@ move_x = move_x*walk_speed;
 /// @DnDHash : 3351425C
 /// @DnDComment : if we are on the ground
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "2"
+/// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_floor"
 /// @DnDSaveInfo : "object" "obj_floor"
-var l3351425C_0 = instance_place(x + 0, y + 2, [obj_floor]);
+var l3351425C_0 = instance_place(x + 0, y + 1, [obj_floor]);
 if ((l3351425C_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
