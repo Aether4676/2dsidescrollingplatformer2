@@ -45,6 +45,7 @@
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
     {"id":{"name":"spr_jump_boost","path":"sprites/spr_jump_boost/spr_jump_boost.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
+    {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
