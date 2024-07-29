@@ -35,6 +35,7 @@
   "name":"2D Side Scrolling Platformer",
   "resources":[
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
     {"id":{"name":"obj_jump_boost","path":"objects/obj_jump_boost/obj_jump_boost.yy",},},
