@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 4EA9EA8D
+/// @DnDComment : spawn Visual FX
+/// @DnDApplyTo : other
+/// @DnDArgument : "x" "50"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "-50"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "7"
+/// @DnDArgument : "where" "1"
+/// @DnDArgument : "size" "1"
+/// @DnDArgument : "color" "$FF0000FF"
+with(other) effect_create_above(7, x + 50, y + -50, 1, $FF0000FF & $ffffff);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 577D2AFF
