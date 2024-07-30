@@ -43,13 +43,13 @@ if ((l3351425C_0 > 0))
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 478F8D4A
-	/// @DnDComment : if there is a tilemap 30 pixels 
+	/// @DnDComment : walk check
 	/// @DnDParent : 72E60E80
-	/// @DnDArgument : "x" "x *(30*sign(move_x))"
+	/// @DnDArgument : "x" "x  + (30*sign(move_x))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_floor"
 	/// @DnDSaveInfo : "object" "obj_floor"
-	var l478F8D4A_0 = instance_place(x *(30*sign(move_x)), y + 0, [obj_floor]);
+	var l478F8D4A_0 = instance_place(x  + (30*sign(move_x)), y + 0, [obj_floor]);
 	if ((l478F8D4A_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -65,14 +65,15 @@ if ((l3351425C_0 > 0))
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 634CDD60
+	/// @DnDComment : gap check
 	/// @DnDParent : 72E60E80
-	/// @DnDArgument : "x" "x*(25*sign(move_x))"
-	/// @DnDArgument : "y" "y+50"
-	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "x" "x +  (25*sign(move_x))"
+	/// @DnDArgument : "y" "y + 50"
 	/// @DnDArgument : "object" "obj_floor"
+	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "obj_floor"
-	var l634CDD60_0 = instance_place(x*(25*sign(move_x)), y + y+50, [obj_floor]);
-	if ((l634CDD60_0 > 0))
+	var l634CDD60_0 = instance_place(x +  (25*sign(move_x)), y + 50, [obj_floor]);
+	if (!(l634CDD60_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
