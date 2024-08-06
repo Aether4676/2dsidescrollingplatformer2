@@ -6,7 +6,7 @@
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 71CA6D23
-/// @DnDComment : if jumnping or falling  
+/// @DnDComment : if jumnping or falling
 /// @DnDDisabled : 1
 /// @DnDParent : 3F569E33
 /// @DnDArgument : "imageind_relative" "1"
@@ -29,7 +29,7 @@ if (!(l65DD6431_0 > 0))
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DF80066
-	/// @DnDComment : if jumnping or falling  
+	/// @DnDComment : if jumnping or falling
 	/// @DnDParent : 65DD6431
 	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "spr_player_jump"
